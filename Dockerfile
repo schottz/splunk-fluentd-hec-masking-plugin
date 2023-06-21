@@ -22,11 +22,8 @@ ENV HIDDEN_FIELDS=
 
 COPY ./entrypoint.sh /bin/
 
-RUN chmod +x /bin/entrypoint.sh && \
-    /bin/entrypoint.sh
+RUN chmod +x /bin/entrypoint.sh
 
-USER fluent
-
-RUN bundle install
+ENTRYPOINT [ "/bin/entrypoint.sh" ]
 
 CMD bundle exec fluentd -c /fluentd/etc/fluent.conf
