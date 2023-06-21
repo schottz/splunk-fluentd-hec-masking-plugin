@@ -26,4 +26,6 @@ RUN chmod +x /bin/entrypoint.sh
 
 ENTRYPOINT [ "/bin/entrypoint.sh" ]
 
-CMD bundle exec fluentd -c /fluentd/etc/fluent.conf
+# CMD bundle exec fluentd -c /fluentd/etc/fluent.conf
+
+CMD cat /opt/fields-to-hide.txt
