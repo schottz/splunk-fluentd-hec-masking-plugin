@@ -10,7 +10,7 @@ That's the way I found when you use **[Splunk's Fluent Plugin HEC](https://githu
 
 The way it is structured, you just have to create your container having a environment variable called **`HIDDEN_FIELDS`** and put the fields names separated by comma.
 
-The entrypoint.sh will put each field name to a file `/opt/fields-to-hide.txt`
+The `entrypoint.sh` will put each field name to a file `/opt/fields-to-hide.txt`
 
 After that, just configure your **[Fluent Plugin Masking](https://github.com/payu/fluent-plugin-masking)** plugin to get the fields names from there. In order to do that, you add the code below to the configmap that sets your container.
 
