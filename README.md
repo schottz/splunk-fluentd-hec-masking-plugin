@@ -2,7 +2,7 @@
 
 This image is aimed to supply a very specific solution, when you need to integrate splunk with your kubernetes cluster.
 
-This image take advantage on **[Splunk's Fluent Plugin HEC](https://github.com/splunk/fluent-plugin-splunk-hec)**, adding the **[Fluent Plugin Masking](https://github.com/payu/fluent-plugin-masking)** plugin for the compliance purpose of hiddening certain information inside logs.
+This image take advantage on **[Splunk's Fluent Plugin HEC](https://github.com/splunk/fluent-plugin-splunk-hec)**, adding the **[Fluent Plugin Masking](https://github.com/payu/fluent-plugin-masking)** plugin for the compliance purpose of hiding certain information inside logs.
 
 That's the way I found when you use **[Splunk's Fluent Plugin HEC](https://github.com/splunk/fluent-plugin-splunk-hec)** and need to add some extra features to it.
 
