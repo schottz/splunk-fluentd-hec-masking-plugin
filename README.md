@@ -21,7 +21,7 @@ After that, just configure your **[Fluent Plugin Masking](https://github.com/pay
 
 ## Build
 
-The `build.sh` contains an example of how you can build this image on a multi platform perspective. I had to use this, since I'm on an ARM architecture and have to build for AMD.
+The `build.sh` contains an example of how you can build this image on a multi platform perspective. I had to use this, since I'm on an ARM architecture and had to build for AMD.
 
 Remember of changing the image name to point to your own repository.
 
