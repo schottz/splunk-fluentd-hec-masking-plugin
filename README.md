@@ -18,3 +18,12 @@ After that, just configure your **[Fluent Plugin Masking](https://github.com/pay
 	@type masking
 	fieldsToMaskFilePath "/opt/fields-to-hide.txt"
 	</filter>
+
+
+## Build
+
+The `build.sh` contains an example of how you can build this image on a multi platform perspective. I had to use this, since I'm on an ARM architecture and have to build for AMD.
+
+Remember of changing the image name to point to your own repository.
+
+Have Fun!
